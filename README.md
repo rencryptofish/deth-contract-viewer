@@ -1,4 +1,4 @@
-# deth_contract
+# deth-contract-viewer
 Chrome / brave extension that adds a button on etherscan family contract pages to open on deth.net
 
 ## Installation 
