@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "View contract on deth.net",
+    "version": "1.0",
+    "description": "Adds a button to etherscan family websites to view contract code on deth.net",
+    "icons": {
+        "16": "icons/16.png",
+        "64": "icons/64.png",
+        "128": "icons/128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://arbiscan.io/address/*",
+                "*://bscscan.com/address/*",
+                "*://etherscan.io/address/*",
+                "*://ftmscan.com/address/*",
+                "*://goerli.etherscan.io/address/*",
+                "*://hecoinfo.com/address/*",
+                "*://kovan-optimistic.etherscan.io/address/*",
+                "*://kovan.etherscan.io/address/*",
+                "*://moonbase.moonscan.io/address/*",
+                "*://moonriver.moonscan.io/address/*",
+                "*://optimistic.etherscan.io/address/*",
+                "*://polygonscan.com/address/*",
+                "*://rinkeby.etherscan.io/address/*",
+                "*://ropsten.etherscan.io/address/*",
+                "*://snowtrace.io/address/*",
+                "*://testnet.arbiscan.io/address/*",
+                "*://testnet.bscscan.com/address/*",
+                "*://testnet.ftmscan.com/address/*",
+                "*://testnet.hecoinfo.com/address/*",
+                "*://testnet.polygonscan.com/address/*",
+                "*://testnet.snowtrace.io/address/*"
+            ],
+            "js": [
+                "deth.js"
+            ]
+        }
+    ]
+}

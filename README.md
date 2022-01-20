@@ -1,2 +1,2 @@
 # deth_contract
-opens etherscan type contract in deth 
+chrome / brave extension that adds a link on etherscan family contract pages to open on deth.net
